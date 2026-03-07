@@ -1,0 +1,13 @@
+prefix=/home/peanuts/OneDrive_boorittht/Projects/Summer/Neutrino-Research/GollumFit//local
+
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: PhysTools
+Description: Likelihood tools.
+URL: https://github.com/icecube/PhysTools
+Version: 0.0.1
+Requires: gsl >= 1.15 hdf5 >= 1.8
+Libs: -L${libdir}/lib -lPhysTools
+Cflags: -I${includedir}/PhysTools
+

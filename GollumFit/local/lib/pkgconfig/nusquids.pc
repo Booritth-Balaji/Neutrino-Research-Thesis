@@ -1,0 +1,13 @@
+prefix=/home/peanuts/OneDrive_boorittht/Projects/Summer/Neutrino-Research/GollumFit/local
+
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: nuSQuIDS
+Description: Toolbox for neutrino oscillation experiments
+URL: https://github.com/arguelles/nuSQuIDS
+Version: 1.12.0
+Requires: gsl >= 1.15 hdf5 >= 1.8 squids >= 1.2.0
+Libs: -L${libdir} -lnuSQuIDS
+Cflags: -I${includedir}
+

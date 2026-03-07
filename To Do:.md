@@ -23,11 +23,14 @@ To Do:
         [ ] Differences in the angle/energy reconstruction
         [ ] are there any events of the 7.5 DS that was excluded in the 12 DS 
         [ ] How the angular error changes with the energy?
+        [ ] What all parameters changed and how?
+            [ ] Whether the effective area changed? 
         
 
-    [ ] Check upon the other available datasets from IceCube         
+    [ ] Check upon the other available datasets from IceCube        
+        [ ] What are the differences between these datasets     
 
-
+<!-- 
 # Thesis Presentation 
 
     [ ] Introduction
@@ -53,32 +56,4 @@ To Do:
 
     [ ] Results and Conclusions 
     [ ] Future work? 
-        [ ] HESE work
-
-# HII Regions origin neutrinos: 
-    [ ] Understanding the log likelihood analysis
-        [ ] Original Paper
-        [ ] Gal merger paper
-        [ ] pugazh thesis
-    
-    [ ] Doing the analysis
-        [x] Downloading the required datasets
-        [x] Plotting the HII regions over neutrino samples
-        [ ] 
-
-# Plottings: 
-    [ ] Fix the discrepancy between the observed and the reference graphs
-    [ ] Plotting figures 4 and 5
-    [ ] Calculating tables I and II 
-
-# Finish reading the paper by this week: 
-    [ ] Understanding the analysis
-        [-] Conventional neutrinos
-        [ ] Cosmogenic neutrinos
-        [ ] Prompt neutrinos
-        [ ] Astrophysical neutrinos
-
-    [ ] Conclusions
-    [ ] Future Neutrino projects 
-
-# 
+        [ ] HESE work -->
