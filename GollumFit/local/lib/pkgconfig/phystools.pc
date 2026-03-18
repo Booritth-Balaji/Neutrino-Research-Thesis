@@ -1,4 +1,4 @@
-prefix=/home/peanuts/OneDrive_boorittht/Projects/Summer/Neutrino-Research/GollumFit//local
+prefix=/home/peanuts/Projects/Neutrino-Research-Thesis/GollumFit/local
 
 libdir=${prefix}/lib
 includedir=${prefix}/include
