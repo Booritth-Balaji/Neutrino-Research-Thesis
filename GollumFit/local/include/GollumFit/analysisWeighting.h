@@ -1197,6 +1197,7 @@ struct WeighterMaker{
                 auto conv   = convHoleIce   * convDOMEff   * convAtt   * atm_wgt * ConvFluxWeigther<Event,DataType>(hekp,hekm,vhe1pip,vhe1pim,vhe3kp,vhe3km,vhe3pip,vhe3pim,vhe3p,vhe3n,cr1,cr2,cr3,cr4,cr5,cr6);
                 auto prompt = promptNorm * promptHoleIce * promptDOMEff * promptAtt * promptFlux;
                 auto astro  = astroNorm  * astroHoleIce  * astroDOMEff  * astroAtt  * astroFlux * neuaneu_wgt * brokenpowerlawTiltWeighter<Event,DataType>(astroPivot, astroDeltaGamma, astroDeltaGammaSec);
+                // auto astro  = astroNorm  * astroHoleIce  * astroDOMEff  * astroAtt  * astroFlux * neuaneu_wgt * brokenpowerlawTiltWeighter<Event,DataType>(astroPivot, astroDeltaGamma, astroDeltaGamma);
                 
                 if (steering->enableTotalNorm) { return convNorm*(conv+prompt+astro)*icegrad_wgt; }
                 else { return (convNorm*conv+prompt+astro)*icegrad_wgt; }
