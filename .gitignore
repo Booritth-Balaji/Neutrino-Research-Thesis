@@ -1,3 +1,4 @@
 .vscode/settings.json
 GollumFit/GollumFit/monte_carlo/BDT_19738
-Data/GollumFit_Data/compact.fastmc
+*.fastmc
+GollumFit_Data/modified_fake_data.npz
